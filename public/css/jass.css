@@ -420,13 +420,11 @@ button {
 }
 
 a {
-  color: #1b89bc;
-  text-decoration: none;
+  text-decoration: none; 
 }
 
 a:hover {
-  color: #065b83;
-  text-decoration: underline;
+  text-decoration: none;  
 }
 
 /* HEIGHT / WIDTH UTILS */
@@ -1259,8 +1257,8 @@ form [type='radio'] {
 [class*='col-'] {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .col-auto {

@@ -1,3 +1,7 @@
+*{
+  list-style-type: none;
+}
+
 header, .project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
@@ -17,8 +21,66 @@ header, .project:not(:last-child) {
   text-decoration: underline;
 }
 
-.dollar-amount {
-  color: #056605;
-  font-weight: bold;
-  margin-left: -5px;
+#header{
+  background-color: rgb(184, 184, 184);
+}
+
+.menu {
+  padding: 20px;
+}
+
+.nav{
+  margin: 20px;
+  color: rgb(39, 39, 39);
+  font-size: 15px;  
+}
+
+#titlebar {
+  margin: 10px;
+  padding: 10px;  
+  background-color: rgb(255, 123, 0);  
+  border-radius: 5px;
+}
+
+#blogName {
+  color: rgb(255, 255, 255);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.title {  
+  background-color: rgb(255, 123, 0);
+  padding: 5px;
+}
+
+.content {
+  padding: 10px;
+  margin: 5px;
+}
+
+.date{
+  text-align: right;
+  padding: 10px;
+}
+
+.post{
+  border: 2px solid;
+  border-color: black;
+  border-radius: 5px; 
+}
+
+.postTitle{
+  color: rgb(39, 39, 39);
+}
+
+#login{
+  left: auto;
+  right: auto;
+}
+
+#logLeft, #signLeft {
+ align-items: start;
+}
+
+#logRight, #signRight{
+  align-items: end;
 }
