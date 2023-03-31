@@ -32,7 +32,7 @@ document
 const signup = async (event) => {
   event.preventDefault();
 
-  const response = await fetch('/api/users/login', {
+  const response = await fetch('/api/users/signup', {
     method: 'GET',
     headers: { 'Content-Type': 'application/json' },
   });
