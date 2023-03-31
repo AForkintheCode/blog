@@ -1,8 +1,9 @@
-*{
+* {
   list-style-type: none;
 }
 
-header, .project:not(:last-child) {
+header,
+.project:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
@@ -21,7 +22,7 @@ header, .project:not(:last-child) {
   text-decoration: underline;
 }
 
-#header{
+#header {
   background-color: rgb(184, 184, 184);
 }
 
@@ -29,25 +30,25 @@ header, .project:not(:last-child) {
   padding: 20px;
 }
 
-.nav{
+.nav {
   margin: 20px;
   color: rgb(39, 39, 39);
-  font-size: 15px;  
+  font-size: 15px;
 }
 
 #titlebar {
   margin: 10px;
-  padding: 10px;  
-  background-color: rgb(255, 123, 0);  
+  padding: 10px;
+  background-color: rgb(255, 123, 0);
   border-radius: 5px;
 }
 
 #blogName {
   color: rgb(255, 255, 255);
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.title {  
+.title {
   background-color: rgb(255, 123, 0);
   padding: 5px;
 }
@@ -57,30 +58,23 @@ header, .project:not(:last-child) {
   margin: 5px;
 }
 
-.date{
+.date {
   text-align: right;
   padding: 10px;
 }
 
-.post{
+.post {
   border: 2px solid;
   border-color: black;
-  border-radius: 5px; 
+  border-radius: 5px;
 }
 
-.postTitle{
+.postTitle {
   color: rgb(39, 39, 39);
 }
 
-#login{
+#login {
   left: auto;
   right: auto;
 }
 
-#logLeft, #signLeft {
- align-items: start;
-}
-
-#logRight, #signRight{
-  align-items: end;
-}

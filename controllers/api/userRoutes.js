@@ -58,4 +58,20 @@ router.post('/logout', (req, res) => {
   }
 });
 
+router.get('/signup', async (req, res) => {
+  if (req.session.loggedIn) {
+    res.redirect("/");
+    return;
+  }
+  res.render('signup', { title: 'Sign-Up Page' });
+});
+
+router.get('/login', (req, res) => {
+  if (req.session.loggedIn) {
+    res.redirect("/");
+    return;
+  }
+  res.render('login', { title: 'Login Page' });
+});
+
 module.exports = router;
