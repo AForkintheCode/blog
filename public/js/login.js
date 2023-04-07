@@ -29,24 +29,6 @@ document
   .addEventListener('submit', loginFormHandler);
 
 
-const signup = async (event) => {
-  event.preventDefault();
 
-  const response = await fetch('/api/users/signup', {
-    method: 'GET',
-    headers: { 'Content-Type': 'application/json' },
-  });
-
-  if (response.ok) {
-    // If successful, redirect the browser to the profile page
-    document.location.replace('/profile');
-  } else {
-    alert(response.statusText);
-  }
-};
-
-document
-  .querySelector('.link')
-  .addEventListener('click', signup);
 
 
